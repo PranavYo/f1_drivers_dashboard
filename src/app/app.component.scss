@@ -1,0 +1,141 @@
+.container {
+    padding: 2rem 0;
+}
+
+.header {
+    color: #3A4374;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6vh;
+
+    svg {
+        margin-right: 1vw;
+        font-size: 2rem;
+        
+        path {
+            fill: #3A4374;
+        }
+    }
+}
+
+.sub-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6vh;
+
+    svg {
+        margin-right: 1vw;
+        font-size: 1.5rem;
+        
+        path {
+            fill: #3A4374;
+        }
+    }
+}
+
+.sub-heading {
+    color: #3A4374;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.filters-and-table {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 7vh;
+
+    @media screen and (max-width: 764px) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+.filters-container {
+    position: relative;
+    width: 25%;
+
+    @media screen and (max-width: 764px) {
+        width: 100%;
+    }
+
+    .filter-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 2vh;
+    }
+}
+
+.filter-title {
+    margin-bottom: 0;
+    color: #3A4374;
+}
+
+.sticky-container {
+    // position: sticky;
+    top: 5rem;
+    height: 35rem;
+    overflow-y: auto;
+    overflow-x: auto;
+
+    @media screen and (max-width: 764px) {
+        height: auto;
+        margin-bottom: 2vh;
+    }
+}
+
+.table-container {
+    width: 70%;
+
+    @media screen and (max-width: 764px) {
+        width: 100%;
+    }
+}
+
+.accordion {
+    overflow-y: auto;
+}
+
+.btns-container {
+    display: flex;
+    align-items: center;
+}
+
+.bar-chart-container {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    margin-bottom: 10vh;
+}
+
+.pie-chart-container-wrapper {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pie-chart-container {
+        width: 50%;
+    }
+}

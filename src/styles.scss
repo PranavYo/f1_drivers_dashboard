@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'node_modules/@swimlane/ngx-datatable/index.css';
+@import 'node_modules/@swimlane/ngx-datatable/themes/material.scss';
+@import 'node_modules/@swimlane/ngx-datatable/assets/icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    font-family: 'Onest', sans-serif;
+    background-color: #F7F8FD;
+}

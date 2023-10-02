@@ -1,0 +1,24 @@
+export default interface DriverData {
+  _id: string;
+  Driver: string;
+  Nationality: string;
+  Seasons: number[];
+  Championships: number;
+  Race_Entries: number;
+  Race_Starts: number;
+  Pole_Positions: number;
+  Race_Wins: number;
+  Podiums: number;
+  Fastest_Laps: number;
+  Points: number;
+  Active: boolean;
+  Decade: number;
+  Pole_Rate: number;
+  Start_Rate: number;
+  Win_Rate: number;
+  Podium_Rate: number;
+  FastLap_Rate: number;
+  Points_Per_Entry: number;
+  Years_Active: number;
+  Champion: boolean;
+};

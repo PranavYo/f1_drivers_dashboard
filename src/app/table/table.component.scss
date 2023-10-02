@@ -1,0 +1,29 @@
+::ng-deep ngx-datatable {
+    height: 35rem;
+    overflow-y: auto !important;
+}
+
+::ng-deep .ngx-datatable.material .empty-row {
+    color: #3A4374;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    justify-self: center;
+}
+
+::ng-deep .datatable-header-cell-label {
+    color: #3A4374;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+::ng-deep .datatable-body-cell-label {
+    color: #3A4374;
+    font-size: 0.9rem;
+    font-style: normal;
+    line-height: normal;
+}
